@@ -3,7 +3,7 @@ description: 새로운 page를 개발합니다
 title: "[Feature] page-name 페이지 구현"
 labels: ["feat: frontend"]
 body:
-   - type: input
+  - type: input
     attributes:
       label: 🏡 URL for the page
       description: 구현하려는 page의 URL을 적어주세요.
