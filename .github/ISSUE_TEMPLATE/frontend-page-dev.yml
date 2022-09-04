@@ -9,6 +9,13 @@ body:
       description: 구현하려는 page의 Image를 첨부해주세요.
     validations:
       required: true
+  - type: input
+    attributes:
+      label: 🏠
+      description: 해당 page의 URL을 적어주세요.
+      placeholder: ex. /contest
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: ✏️ Describe the feature
