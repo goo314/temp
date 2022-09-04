@@ -1,6 +1,6 @@
 name: 📕 [Frontend] New page development
 description: 새로운 page를 개발합니다
-title: "[Feature] page-name 페이지 구현
+title: "[Feature] page-name 페이지 구현"
 labels: ["feat: frontend"]
 body:
   - type: textarea
