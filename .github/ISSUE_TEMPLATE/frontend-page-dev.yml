@@ -6,7 +6,7 @@ body:
   - type: textarea
     attributes:
       label: 🎨 Page Image
-      description: 구현하려는 Page의 Image를 첨부해주세요.
+      description: 구현하려는 page의 Image를 첨부해주세요.
     validations:
       required: true
   - type: textarea
@@ -17,7 +17,13 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 🏷 Required Component
-      description: 해당 page를 구현할 때 필요한 다른 component list를 작성하고, 관련된 issue number를 적어주세요. 없다면 작성하지 않으셔도 됩니다.
+      label: 💍 Required APIs
+      description: 해당 page를 구현할 때 필요한 api list에 대해 설명해주세요. (없다면 작성하지 않으셔도 됩니다.)
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 🏷 Required Components
+      description: 해당 page를 구현할 때 필요한 component list를 작성해주세요. (없다면 작성하지 않으셔도 됩니다.)
     validations:
       required: false
