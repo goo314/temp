@@ -11,7 +11,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: 🏠
+      label: 🏠 URL for the page
       description: 해당 page의 URL을 적어주세요.
       placeholder: ex. /contest
     validations:
