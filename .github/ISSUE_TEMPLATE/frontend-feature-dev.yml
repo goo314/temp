@@ -11,6 +11,8 @@ body:
         - Page
         - Connect API
         - Others
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: ✏️ Describe the feature
