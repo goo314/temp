@@ -7,7 +7,7 @@ body:
     attributes:
       label: 📌 Type of feature
       options:
-        - Component
+        - Component (Default)
         - Page
         - Connect API
         - Others
