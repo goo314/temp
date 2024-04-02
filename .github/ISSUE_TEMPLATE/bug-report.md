@@ -1,6 +1,6 @@
 ---
 name: 🐞 Bug
-about: File a bug/issue
+about: GrabTable의 버그를 보고합니다
 title: '[BUG] '
 
 ---

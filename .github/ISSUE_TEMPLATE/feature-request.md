@@ -1,6 +1,6 @@
 ---
 name: 🚀 New Feature
-about: Propose a new feature to be added to GrabTable
+about: GrabTable에 들어갈 새로운 feature를 개발합니다
 title: '[Feature]: '
 ---
 
