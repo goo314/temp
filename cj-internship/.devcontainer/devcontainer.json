@@ -11,7 +11,10 @@
             "extensions": [
                 "donjayamanne.githistory",
                 "eamodio.gitlens",
-                "mhutchie.git-graph"
+                "mhutchie.git-graph",
+                "Vue.volar",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
             ]
         }
     },
