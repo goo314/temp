@@ -1,0 +1,19 @@
+{
+    "name": "cj-internship",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "workspaceFolder": "/workspaces/cj-internship",
+    "postCreateCommand": "./.devcontainer/setup.sh",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.githistory",
+                "eamodio.gitlens",
+                "mhutchie.git-graph"
+            ]
+        }
+    },
+    "remoteUser": "node"
+}
