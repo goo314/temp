@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "workspaceFolder": "/workspaces/cj-internship",
+    "workspaceFolder": "/workspaces/temp/cj-internship",
     "postCreateCommand": "./.devcontainer/setup.sh",
 
     "customizations": {
@@ -14,9 +14,16 @@
                 "mhutchie.git-graph",
                 "Vue.volar",
                 "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+                "hashicorp.terraform"
             ]
         }
     },
+    "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {}
+    },
+    "mounts": [
+      "source=${localEnv:HOME}/.aws,target=/home/node/.aws,type=bind,consistency=cached"
+    ],
     "remoteUser": "node"
 }
