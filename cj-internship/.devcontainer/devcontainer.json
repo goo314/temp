@@ -1,9 +1,8 @@
 {
     "name": "cj-internship",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "workspaceFolder": "/workspaces/temp/cj-internship",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
     "postCreateCommand": "./.devcontainer/setup.sh",
 
     "customizations": {
@@ -15,7 +14,8 @@
                 "Vue.volar",
                 "dbaeumer.vscode-eslint",
                 "esbenp.prettier-vscode",
-                "hashicorp.terraform"
+                "hashicorp.terraform",
+                "rangav.vscode-thunder-client"
             ]
         }
     },
