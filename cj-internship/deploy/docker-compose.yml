@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  app:
+    container_name: prod-cj-express-app
+    image: cj-internship/express-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ..:/workspace:cached
+    depends_on:
+      - database
+    tty: true
+
+  database:
+    container_name: prod-cj-mysql
+    restart: always
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: benefit
+      MYSQL_ROOT_PASSWORD: root
